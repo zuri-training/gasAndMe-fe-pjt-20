@@ -1,8 +1,8 @@
 # gasAndMe-fe-pjt-20
 
 > ## Table of contents
-* [Project Description](#project-overview)
-* [Tech Stack](#technologies)
+* [Project Description](#project-description)
+* [Tech Stack](#tech-stack)
 * [Contributing](#contributing-to-the-project)
 #
 >## Project Description
