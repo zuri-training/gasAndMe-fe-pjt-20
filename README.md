@@ -3,6 +3,7 @@
 > ## Table of contents
 * [Project Description](#project-description)
 * [Tech Stack](#tech-stack)
+* [Environment Setup](#environment-setup)
 * [Contributing](#contributing-to-the-project)
 #
 >## Project Description
@@ -13,60 +14,60 @@ The stacks used for the project include:
 
 | <b><u>Technology</u></b> | <b><u>Used for</u></b> |
 | :---         | :---         |
-| **`PHP`** | Programming language |
-| **`Laravel`** | General backend |
-| **`Mongo Db`** | Database |
 | **` HTML`** | Frontend Markup |
 | **`CSS`** | Stlying |
 | **`JavaScript`** | Frontend Programming |
 
+#
+> ## Environment Setup
 
-> ## Initial Backend Repo Setup
-
-The Zuriteam Team 56 backend repository was forked and cloned to create a copy on my local machine. 
-
-```bash
-# git clone git@github.com:pauline-banye/school-scout-be-pjt-56.git
-```
-I changed directory to the cloned repo and set the original Zuriteam Team 56 backend repository as my "upstream" and the forked repo as the "origin".
+Have this project running locally on your machine. Fork the main repository and then clone the forked copy using
 
 ```bash
-# git remote add upstream git@github.com:zuri-training/school-scout-be-pjt-56.git
+# git clone https://github.com/<YOUR-GITHUB-USERNAME>/gasAndMe-fe-pjt-20.git
 ```
-The next step  involved editing the read.me file and adding it to git to track changes. I created the first commit `git commit -m "updated readme.md"`.
+Add the main repo as your "upstream" remote so you can always have an updated codo from the main source code with ease, to do this make sure you have CDed into the project from your terminal, and then run the command
 
 ```bash
-$ git commit -m "updated readme.md"
-[main a4c9702] updated readme.md
- 1 file changed, 197 insertions(+), 2 deletions(-)
- rewrite README.md (100%)
+# git remote add upstream https://github.com/zuri-training/gasAndMe-fe-pjt-20.git
 ```
+With that you can start testing and contributing to the project
 
-Using `git push origin main`, the commit was pushed to the remote origin repository. Finally a pull request was initialized  to push my edits to the upstream repo 
-
-
-
-To be updated...............
 
 #
 > ## Contributing to the project
 
-If you find something worth contributing, please make a pull request and add valid and well-reasoned explanations about your changes or comments.
+Some important things to note as you try to make a contribution
 
-Please note:
 
-- `It shoulb be inviting and clear.`
+- `What you are working on should be assigned to you as an issue.`
 
-- `Any additions should be relevant.`
+- `Link your pull request to the issue.`
 
-- `It should be easy to contribute to.`
+- `Leave a clear description on your pull requestes.`
 
-Before adding a pull request, please remember:
+<b>WORKING ON AN ISSUE</b>
+
+When you have been assigned an issue, to start working, from the local repo create a new branch with a similar name to the issue assigned. For example, if one is assigned an issue for creating the homepage as issue 64, he/she might create a branch by running
 
 ```bash
-This repository is not meant to contain everything but only good quality verified information.
+# git checkout -b 64-create-homepage
 ```
+After creating a branch, you should go aheah and make your changes on only the files you need to. when you are satisfied with you solution, commit the changes to your branch by running
 
+```bash
+# git add .
+```
+followed by
 
+```bash
+# git commit -m "Commit message"
+```
+And then 
+```bash
+# git pull upstream main
+```
+it is important to note that you are not only required to commit when you have arrived at your solution but as often as you feel you should save your current changes.
+When you want to make a pu
 #
 > Robert Orazu for pjt20-team
