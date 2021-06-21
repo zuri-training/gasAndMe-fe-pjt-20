@@ -23,13 +23,13 @@ The stacks used for the project include:
 
 Have this project running locally on your machine. Fork the main repository and then clone the forked copy using
 
-```bash
-# git clone https://github.com/<YOUR-GITHUB-USERNAME>/gasAndMe-fe-pjt-20.git
+```
+ git clone https://github.com/<YOUR-GITHUB-USERNAME>/gasAndMe-fe-pjt-20.git
 ```
 Add the main repo as your "upstream" remote so you can always have an updated codo from the main source code with ease, to do this make sure you have CDed into the project from your terminal, and then run the command
 
-```bash
-# git remote add upstream https://github.com/zuri-training/gasAndMe-fe-pjt-20.git
+```
+ git remote add upstream https://github.com/zuri-training/gasAndMe-fe-pjt-20.git
 ```
 With that you can start testing and contributing to the project
 
@@ -65,29 +65,40 @@ After creating a branch, you should go ahead and make your changes on only the f
 ```
 followed by
 
-```bash
+```
  git commit -m "Commit message"
 ```
 And then 
-```bash
+```
  git pull upstream main
 ```
 It is important to note that you are not only required to commit when you have arrived at your solution but as often as you feel you should save your current changes.
 It is also important to pull from the main repo everyday, to avoid unresolvable conflicts with the command
 
-```bash
+```
  git pull upstream main
 ```
 
 You can finish off by pushing to the same branch in your remote repository by running
 
-```bash
+```
  git push -u origin <Name-of-branch>
 ```
 if you are pushing to that branch subsequently, you can omit the branch name and the `-u` flag, just run
 
-```bash
+```
  git push
 ```
+
+<b>MAKING A PULL REQUEST</b>
+
+When you have pushed the work to its branch on your repo, follow the following steps to create a pull request 
+
+- `Switch to the branch you worked on`
+
+- `Click the dropdown labelled contribute and then click open pull request`
+
+- `Leave a clear description on your pull requestes and link the issue assigned to close it automatically`
+
 #
 > Robert Orazu for pjt20-team
