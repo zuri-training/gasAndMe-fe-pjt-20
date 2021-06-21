@@ -21,7 +21,7 @@ The stacks used for the project include:
 #
 > ## Environment Setup
 
-Have this project running locally on your machine. Fork the main repository and then clone the forked copy using
+To have this project running locally on your machine. Fork the main repository and then clone the forked copy using
 
 ```
  git clone https://github.com/<YOUR-GITHUB-USERNAME>/gasAndMe-fe-pjt-20.git
