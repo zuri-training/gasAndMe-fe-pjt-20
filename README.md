@@ -48,26 +48,46 @@ Some important things to note as you try to make a contribution
 
 <b>WORKING ON AN ISSUE</b>
 
-When you have been assigned an issue, to start working, from the local repo create a new branch with a similar name to the issue assigned. For example, if one is assigned an issue for creating the homepage as issue 64, he/she might create a branch by running
-
-```bash
-# git checkout -b 64-create-homepage
+When you have been assigned an issue, to start working, from the main branch of your local repo create a new branch with a similar name to the issue assigned. For example, if one is assigned an issue for creating the homepage as issue 64, he/she might create a branch by running
+ 
 ```
-After creating a branch, you should go aheah and make your changes on only the files you need to. when you are satisfied with you solution, commit the changes to your branch by running
+ git checkout main
+```
+the command above is to make sure you are creating a branch from your main branch, then run the following command
 
-```bash
-# git add .
+```
+ git checkout -b 64-create-homepage
+```
+After creating a branch, you should go ahead and make your changes on only the files you need to. When you are satisfied with you solution, commit the changes to your branch by running
+
+```
+ git add .
 ```
 followed by
 
 ```bash
-# git commit -m "Commit message"
+ git commit -m "Commit message"
 ```
 And then 
 ```bash
-# git pull upstream main
+ git pull upstream main
 ```
-it is important to note that you are not only required to commit when you have arrived at your solution but as often as you feel you should save your current changes.
-When you want to make a pu
+It is important to note that you are not only required to commit when you have arrived at your solution but as often as you feel you should save your current changes.
+It is also important to pull from the main repo everyday, to avoid unresolvable conflicts with the command
+
+```bash
+ git pull upstream main
+```
+
+You can finish off by pushing to the same branch in your remote repository by running
+
+```bash
+ git push -u origin <Name-of-branch>
+```
+if you are pushing to that branch subsequently, you can omit the branch name and the `-u` flag, just run
+
+```bash
+ git push
+```
 #
 > Robert Orazu for pjt20-team
